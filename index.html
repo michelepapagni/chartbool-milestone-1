@@ -11,8 +11,17 @@
     <body>
 
         <div class="container">
+            <input type="date" id="date" value="2017-01-01" min="2017-01-01" max="2017-12-31" />
+            <input type="text" id="amount" placeholder="Inserisci il valore della vendita" />
+            <select id="venditore"></select>
+            <button id="add">Aggiungi Vendita</button>
+
             <canvas id="line"></canvas>
             <canvas id="pie"></canvas>
+        </div>
+
+        <div class="templates">
+            <option></option>
         </div>
 
         <script src="main.js" charset="utf-8"></script>
